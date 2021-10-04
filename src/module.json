@@ -1,0 +1,84 @@
+{
+	"name": "combatready",
+	"title": "Combat Ready!",
+	"description": "'<b><i>My Combat Tracker is Ready</i></b>' Combat ready indicator to remind players of their turn, as well as time taken. ",
+	"version": "1.5.0",
+	"author": "Teshynil",
+	"authors": [
+		{
+			"name": "Teshynil",
+			"url": "https://github.com/Teshynil/",
+			"email": "",
+			"discord": "Teshynil#8564",
+			"ko-fi": "",
+			"patreon": "",
+			"reddit": "u/Teshynil",
+			"twitter": "@Teshynil"
+		}
+	],
+	"manifestPlusVersion": "1.2.0",
+	"socket": true,
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "ja",
+			"name": "日本語 (Japanese)",
+			"path": "lang/ja.json"
+		},
+		{
+			"lang": "ko",
+			"name": "한국어 (Korean)",
+			"path": "lang/ko.json"
+		},
+		{
+			"lang": "pt-BR",
+			"name": "Português (Brasil)",
+			"path": "lang/pt-BR.json"
+		},
+		{
+			"lang": "fr",
+			"name": "Français (French)",
+			"path": "lang/fr.json"
+		},
+		{
+			"lang": "nl",
+			"name": "Nederlands (Dutch)",
+			"path": "lang/nl.json"
+		},
+		{
+			"lang": "it",
+			"name": "Italiano (Italian)",
+			"path": "lang/it.json"
+		},
+		{
+			"lang": "zh-SHAN",
+			"name": "简体中文 (Chinese [Simplified])",
+			"path": "lang/zh-SHAN.json"
+		}
+	],
+	"esmodules": [
+		"combatready.js"
+	],
+	"styles": [
+		"combatready.css"
+	],
+	"dependencies": [
+		{
+			"name": "colorsettings",
+			"manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/master/module.json"
+		}
+	],
+	"packs": [],
+	"minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "0.8.9",
+	"url": "https://github.com/Teshynil/combatready",
+	"download": "https://github.com/Teshynil/combatready/releases/download/1.5.0/combatready-v1.5.0.zip",
+	"manifest": "https://raw.githubusercontent.com/Teshynil/combatready/master/src/module.json",
+	"license": "https://github.com/Teshynil/combatready/blob/1.5.0/LICENSE",
+	"readme": "https://github.com/Teshynil/combatready/blob/1.5.0/README.md",
+	"changelog": "https://github.com/Teshynil/combatready/blob/1.5.0/CHANGELOG.md"
+}
