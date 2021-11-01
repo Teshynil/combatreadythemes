@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "combatready",
-  "version": "1.5.0",
-  "description": "",
+  "name": "combatreadythemes",
+  "version": "1.0.0",
+  "description": "A pack of basic themes for the Combat Ready! module",
   "scripts": {
     "package": "gulp clean && gulp build && gulp package",
     "test": "jest",
@@ -28,6 +28,7 @@
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
     "archiver": "^5.2.0",
     "chalk": "^4.1.2",
+    "combatready": "github:teshynil/combatready#1.5.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-jquery": "^3.0.0",

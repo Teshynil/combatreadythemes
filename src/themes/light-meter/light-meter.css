@@ -1,0 +1,31 @@
+.combatready-theme-dd-timebar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    height: 10px;
+    transition: width 500ms linear;
+}
+
+.combatready-theme-dd-timebar-fill {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent, rgba(100, 0, 0, 1) 2%, rgba(252, 120, 0, 1), rgba(100, 0, 0, 1) 98%, transparent);
+    transition: width 1000ms linear;
+}
+
+.combatready-theme-dd-timebar-icon {
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: -25px;
+    background-image: url("swords.svg");
+}
