@@ -1,5 +1,26 @@
 import { registerLightMeter } from "./themes/light-meter/lightMeter";
 
+export function getCanvas(): Canvas {
+  if (!(canvas instanceof Canvas) || !canvas.ready) {
+      throw new Error('Canvas Is Not Initialized');
+  }
+  return canvas;
+}
+
+export function getGame(): Game {
+  if (!(game instanceof Game)) {
+      throw new Error('Game Is Not Initialized');
+  }
+  return game;
+}
+
+export function getCombats(): CombatEncounters {
+  if (!(getGame().combats instanceof CombatEncounters)) {
+      throw new Error('CombatEncounters Is Not Initialized');
+  }
+  return <CombatEncounters>getGame().combats;
+}
+
 /**
  * Ready hook
  */

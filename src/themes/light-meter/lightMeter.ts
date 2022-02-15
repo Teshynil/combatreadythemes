@@ -1,3 +1,5 @@
+import { getGame } from "../../combatreadythemes";
+
 export function registerLightMeter(CombatReadyTimer) {
     class LightMeter extends CombatReadyTimer {
         name = "LightMeter";
@@ -58,7 +60,7 @@ export function registerLightMeter(CombatReadyTimer) {
             if (!this.ready) return;
             this.TIMEBAR.style.display = "flex";
             //@ts-ignore
-            let width = 100 - ((CombatReady.getCurrentTime() / CombatReady.getMaxTime()) * 100);
+            let width = 100 - ((getGame().modules.get("combatready")?.api?.getCurrentTime() / getGame().modules.get("combatready")?.api?.getMaxTime()) * 100);
             this.TIMEFILL.style.transition = "";
             this.TIMEFILL.style.width = `${width}%`;
         }
@@ -75,5 +77,5 @@ export function registerLightMeter(CombatReadyTimer) {
         }
     }
     //@ts-ignore
-    CombatReady.setupTimer(new LightMeter("CombatReadyLightMeter"));
+    getGame().modules.get("combatready")?.api?.setupTimer(new LightMeter("CombatReadyLightMeter"));
 }
