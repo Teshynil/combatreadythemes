@@ -1,0 +1,78 @@
+{
+	"combatReady": {
+		"animations": {
+			"videoAnimation": {
+				"texts": {
+					"yourTurnSettings": {
+						"name": "Your Turn Animation Settings",
+						"hint": ""
+					},
+					"nextUpSettings": {
+						"name": "Next Up Animation Settings",
+						"hint": ""
+					},
+					"nextRoundSettings": {
+						"name": "Next Round Animation Settings",
+						"hint": ""
+					}
+				},
+				"settings": {
+					"videoFileToPlay": {
+						"name": "Video to play",
+						"hint": "Select the video to play. Leave empty to disable"
+					},
+					"loopVideo": {
+						"name": "Loop the video",
+						"hint": "How many times the video will loop. -1 to loop forever"
+					},
+					"removeAfterTime": {
+						"name": "Remove the video after X seconds",
+						"hint": "Remove the video after X seconds. -1 to not remove the video. 0 to remove the video after it concludes. X to remove the video after X seconds. If the video is looping forever 0 and -1 would cause that the video never removes automatically."
+					},
+					"removeAfterClick": {
+						"name": "Remove the video on click",
+						"hint": "Remove the video when the user clicks on it"
+					},
+					"videoOpacity": {
+						"name": "Video opacity",
+						"hint": "Change the opacity for the video"
+					},
+					"addCover": {
+						"name": "Add a cover",
+						"hint": "Adds a fullscreen cover background"
+					},
+					"coverColor": {
+						"name": "Cover color",
+						"hint": "Change the color for the cover background"
+					},
+					"coverOpacity": {
+						"name": "Cover opacity",
+						"hint": "Change the opacity for the cover"
+					},
+					"forceScreenRatio": {
+						"name": "Force ",
+						"hint": "Remove the Next Up text whe the player clicks it"
+					},
+					"forceVideoWidth": {
+						"name": "Hide 'Next Up' notification on click",
+						"hint": "Remove the Next Up text whe the player clicks it"
+					},
+					"forceVideoHeight": {
+						"name": "Hide 'Next Up' notification on click",
+						"hint": "Remove the Next Up text whe the player clicks it"
+					}
+				}
+			}
+		},
+		"timers": {
+			"lightMeter": {
+				"settings": {
+					"timerColor": {
+						"name": "Color of the timer",
+						"hint": "Select the color of the timer"
+					}
+				}
+			}
+		}
+	}
+}

@@ -2,7 +2,7 @@
 	"name": "combatreadythemes",
 	"title": "Combat Ready! Themes Pack",
 	"description": "A pack of basic themes for the Combat Ready! module",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"author": "Teshynil",
 	"authors": [
 		{
@@ -18,12 +18,19 @@
 	],
 	"manifestPlusVersion": "1.2.0",
 	"socket": true,
-	"languages": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
 	"esmodules": [
 		"combatreadythemes.js"
 	],
 	"styles": [
-		"themes/light-meter/light-meter.css"
+		"themes/light-meter/light-meter.css",
+		"themes/video-animation/video-animation.css"
 	],
 	"dependencies": [
 		{
@@ -32,12 +39,12 @@
 		}
 	],
 	"packs": [],
-	"minimumCoreVersion": "0.8.6",
+	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"url": "https://github.com/Teshynil/combatreadythemes",
-	"download": "https://github.com/Teshynil/combatreadythemes/releases/download/1.1.0/combatreadythemes-v1.1.0.zip",
+	"download": "https://github.com/Teshynil/combatreadythemes/releases/download/1.2.0/combatreadythemes-v1.2.0.zip",
 	"manifest": "https://raw.githubusercontent.com/Teshynil/combatreadythemes/master/src/module.json",
-	"license": "https://github.com/Teshynil/combatreadythemes/blob/1.1.0/LICENSE",
-	"readme": "https://github.com/Teshynil/combatreadythemes/blob/1.1.0/README.md",
-	"changelog": "https://github.com/Teshynil/combatreadythemes/blob/1.1.0/CHANGELOG.md"
+	"license": "https://github.com/Teshynil/combatreadythemes/blob/1.2.0/LICENSE",
+	"readme": "https://github.com/Teshynil/combatreadythemes/blob/1.2.0/README.md",
+	"changelog": "https://github.com/Teshynil/combatreadythemes/blob/1.2.0/CHANGELOG.md"
 }

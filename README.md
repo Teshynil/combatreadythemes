@@ -1,14 +1,15 @@
-# Combat Ready Themes Set
+# Combat Ready Themes Pack
 
 A set of Animation themes and Timers for the module Combat Ready!
 
 ## Usage
 
-Install it, and select which theme or timer to use in the settings menu
+Install it, and select which theme or timer to use in the settings menu for the module
 
 ### Themes availables
 
-* None just yet
+* Video Animation
+	> Allows to use a video as animation supports webm with alpha channel
 
 ### Timers available
 
@@ -21,5 +22,5 @@ For the copyright details you can check the [Copyright file](https://github.com/
 # For developers
 
 If you are a develeper you can use this module as a base for your own theme or timer.
-
+If you want your theme could be added to this pack
 
