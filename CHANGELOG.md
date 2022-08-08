@@ -1,4 +1,9 @@
 # CHANGELOG
+## [1.3.0] 2022-08-08
+* Updated compatibility to FoundryVTT v10
+* Compatible with CombatReady! 4.2.0
+* It may throw warnings because is using both v10 & v9 module.json
+
 ## [1.2.0] 2022-06-22
 * Compatible with CombatReady! 4.1.0
 * Added Video animation
